@@ -4,7 +4,7 @@ box-sizing: border-box;
 
 }
 body{
-    background-image: url(/img/fon.png);
+    background-image: url(img/fon.png);
     background-repeat: no-repeat;
     background-size: cover;   
     width: 100%;
