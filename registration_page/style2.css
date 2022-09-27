@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(231, 229, 229);
+}
+.content {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    
+}
+.intro {
+    width: 1000px;
+    height: 555px;
+    margin: auto;
+    border-radius: 5px;
+    background: rgb(248, 246, 246);
+    
+}
+.page {
+    margin: auto;
+    width: 400px;
+    height: 500px;
+   
+}
+.fields{
+width: 300px;
+height: 300px;
+margin: 20px 0px 0px 60px;
+float: left;
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 590;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
+.tex_fields{
+font-size: 1.4em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#login{
+width: 250px;
+height: 35px;
+font-size: 20px;
+outline:none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.error{
+    color: red;
+}
+.password1_error{
+    color: red;
+}
+.repeat_the_password_error{
+    color: red;
+}
+
+#password1{
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#repeat_the_password{
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+option{
+
+}
+.btn_fields{
+width: 250px;
+height: 40px;
+border-radius: 15px;
+background: rgb(16, 192, 163);
+/* text-align: center; */
+line-height: 5px;
+margin-left: 0px;
+margin-bottom: 20px;
+margin-top: 20px;
+border: none;
+}
+.tex_content_fields{
+    width: 80%;
+    height: 60px;
+    background: antiquewhite;
+    text-align: center;
+
+}
+.tex_intro {
+    font-size: 0.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a_fields {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(240, 118, 5);;
+}
+
+
+
+
+
+
+

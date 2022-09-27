@@ -1,0 +1,147 @@
+*{
+margin: 0px;
+box-sizing: border-box;
+
+}
+body{
+    background-image: url(/img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 100%;
+    height: 100%;
+}
+.content{
+width: 35%;
+height: 400px;
+margin-left: 460px;
+margin-top: 120px;
+
+}
+.network_login_fields {
+    width: 500px;
+    height: 420px;
+    background: #fff;
+    border-radius: 10px;
+    display: inline-block;  
+    
+}
+.entrance{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.horizont{
+width: 100%;
+height: 2px;
+background: rgb(161, 159, 159);
+}
+label{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
+#tel{
+width: 320px;
+height: 30px;
+margin-left: 100px;
+border-radius:  2px solid rgb(168, 164, 164);
+outline: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#parol{
+    width: 320px;
+    height: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius:  2px solid rgb(168, 164, 164);
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enter {
+    width: 320px;
+    height: 40px;
+    background: rgb(230, 130, 17);
+    color: #fff;
+    /* margin-left:  100px; */
+    margin-bottom: 15px;
+    border-radius: 15px;
+     margin-left: 3px;
+    border: none;
+    display: block;
+}
+.fon{
+    padding-top: 2px;
+    width: 325px;
+    height: 45px;
+    margin-left:  100px;
+    margin-bottom: 20px;
+    background:#fff;
+    border-radius:15px ;
+    transition: background 80ms linear ;
+}
+.fon:hover{
+    background: rgb(230, 130, 17);
+}
+.log_in_by_QR {
+    width: 320px;
+    height: 30px;
+   border-radius: 15px;
+    display: block;
+    margin-left:  100px;
+    margin-bottom: 10px;
+    border: 2px  solid rgb(202, 195, 195);
+    color: rgba(104, 98, 88, 0.699);
+}
+.log_in_by_QR:hover{
+    border: 2px  solid rgb(226, 129, 64);
+    color: rgb(245, 139, 0);
+}
+.p {
+    margin-left:  200px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+    color: rgb(104, 98, 88);
+}
+.p:hover{
+    text-decoration:underline;
+
+}
+.p1{
+    font-size: 0.8em;
+    margin-left:  180px;  
+    margin-bottom: 10px;
+    color: rgb(145, 139, 128);
+    position: relative;
+}
+.p1::after{
+    content: "";
+    width: 60px;
+    height: 1px;
+    top: 8px;
+    left: 170px;
+    background: rgb(145, 139, 128);
+    position: absolute;
+    
+}
+.p1::before{
+    content: "";
+    width: 60px;
+    height: 1px;
+    top: 8px;
+    left: -65px;
+    position: absolute;
+    background: rgb(145, 139, 128);
+}
+.btn_registered{
+margin-left:  190px; 
+width: 150px;
+height: 30px;
+border-radius: 15px;
+border: none;
+background: rgb(223, 216, 216);
+transition:background .2s linear ;
+}
+.btn_registered:hover{
+    background: rgb(173, 172, 172);
+}
