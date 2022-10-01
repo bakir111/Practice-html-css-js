@@ -1,53 +1,40 @@
-let login = document.querySelector("#login");
-let password = document.querySelector("#password1");
-let repeat_password = document.querySelector("#repeat_the_password");
 
- document.querySelector(".btn_fields").addEventListener("click",function registration(){
-
-    if(login.value == 0 )
-    {
-      document.querySelector(".error").innerHTML = "заполните поля";
-     }
-
-    else
-    {
-       document.querySelector(".error").innerHTML = "";
+  function f1(a){
+    if(a.length < 4){
+        return "не мение 4 символа";
     }
+    else{
+        return "";
+    }
+   
+ }
+
+  function f2(b, v){
+    if(b.length != v.length){
+        return  "пароли должны совпадать";
+    }
+     else{
+         return "";
+ }
+ }
+ let rep, psw;
+document.querySelector(".btn_fields").addEventListener("click", function(){
+   let logg = document.querySelector("#login");
+ document.querySelector(".error").innerHTML = f1(logg.value);
+});
+
+document.querySelector(".btn_fields").addEventListener("click", function(){
+     psw = document.querySelector("#password1");
+  document.querySelector(".password1_error").innerHTML = f1(psw.value);
+ });
+
+ document.querySelector(".btn_fields").addEventListener("click", function(){
+     rep = document.querySelector("#repeat_the_password");
+  document.querySelector(".repeat_the_password_error").innerHTML = f1(rep.value);
+ });
+
+ document.querySelector(".btn_fields").addEventListener("click", function(){ 
+  document.querySelector(".repeat_the_password_error").innerHTML = f2(rep.value, psw.value);
+ });
  
-    if(login.value.length > 0 && login.value.length < 4 )
-    {
-       document.querySelector(".error").innerHTML = "Не менше 4 сиволов";
-    }
-    if(password.value == 0)
-    {
-    //    console.log("нажата");
-       document.querySelector(".password1_error").innerHTML = "заполните поля";
-       document.querySelector(".repeat_the_password_error").innerHTML ="";
-    }
-    else
-    {
-       document.querySelector(".password1_error").innerHTML = "";
-    }
-   if(password.value.length > 0 && password.value.length < 4 )
-   {
-       document.querySelector(".password1_error").innerHTML = "Не мение 4 символов";
-   }
-   if( repeat_password.value.length != password.value.length)
-   {
-      document.querySelector(".repeat_the_password_error").innerHTML ="Пароли должны совпадать";
-   }
-  
-   else
-   {
-      document.querySelector(".repeat_the_password_error").innerHTML ="";
-   }
-   if(login.value.length > 4 && password.value.length > 4 && repeat_password.value.length > 4 ){
-       
-       document.location.href="/Third_page/index.html";
-}
-
-   
-    
-
-   
-  });
+ export {f1 ,f2};

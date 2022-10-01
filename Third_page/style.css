@@ -43,6 +43,7 @@ body{
 .tex_login {
     font-size: 22px;
     margin-bottom: 20px;
+    color: red;
 }
 .password1{
     font-size: 22px;
